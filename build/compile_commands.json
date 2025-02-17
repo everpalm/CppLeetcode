@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o -c \"/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp\"",
+  "file": "/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp",
+  "output": "CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o"
+}
+]
