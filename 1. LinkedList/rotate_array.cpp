@@ -3,8 +3,9 @@
 輸入: nums = [1,2,3,4,5,6,7], k = 3  
 輸出: [5,6,7,1,2,3,4]
 */
+#include "rotate_array.h" 
 #include <iostream>
-#include <vector>
+// #include <vector>
 #include <algorithm>
 using namespace std;
 
@@ -26,6 +27,7 @@ int main() {
     int k = 3;
     rotate(nums, k);
     
+
     cout << "旋轉後的陣列：";
     for (int num : nums) {
         cout << num << " ";

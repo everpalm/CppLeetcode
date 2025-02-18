@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc librotate_array_lib.a CMakeFiles/rotate_array_lib.dir/1._LinkedList/rotate_array.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib librotate_array_lib.a
