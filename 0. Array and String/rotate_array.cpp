@@ -9,7 +9,7 @@
 #include <algorithm>
 using namespace std;
 
-void rotate(vector<int>& nums, int k) {
+void Solution::rotate(vector<int>& nums, int k) {
     int n = nums.size();
     if(n == 0 || k == 0) return;
     k %= n;  // 當 k >= n 時取餘數

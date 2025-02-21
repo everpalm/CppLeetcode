@@ -1,4 +1,5 @@
-#include "leetcode238.h"
+// #include "leetcode238.h"
+#include "solution.h"
 #include <gtest/gtest.h>
 #include <vector> // 確保包含 vector
 

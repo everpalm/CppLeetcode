@@ -8,6 +8,7 @@
 class Solution {
 public:
     std::vector<int> productExceptSelf(const std::vector<int>& nums);
+    void rotate(std::vector<int>& nums, int k);
 };
 
 #endif // LEETCODE238_H

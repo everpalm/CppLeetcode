@@ -958,7 +958,7 @@ CMakeFiles/test_leetcode238.dir/0._Array_and_String/leetcode238.cpp.o: /Users/Ja
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/Jaron/Documents/Projects/CppLeetcode/include/leetcode238.h
+  /Users/Jaron/Documents/Projects/CppLeetcode/include/solution.h
 
 CMakeFiles/test_leetcode238.dir/Test/test_leetcode238.cpp.o: /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/Availability.h \
@@ -2221,6 +2221,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/i386/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/i386/limits.h:
+
+/Users/Jaron/Documents/Projects/CppLeetcode/include/solution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/i386/signal.h:
 
