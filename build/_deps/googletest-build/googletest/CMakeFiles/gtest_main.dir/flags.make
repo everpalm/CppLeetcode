@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -g -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1  
+CXX_FLAGS = -g -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1  
 

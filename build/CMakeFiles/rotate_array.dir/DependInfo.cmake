@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp" "CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o" "gcc" "CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o.d"
+  "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/rotate_array.cpp" "CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o" "gcc" "CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

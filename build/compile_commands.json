@@ -1,43 +1,37 @@
 [
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/rotate_array_lib.dir/1._LinkedList/rotate_array.cpp.o -c \"/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp\"",
-  "file": "/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp",
-  "output": "CMakeFiles/rotate_array_lib.dir/1._LinkedList/rotate_array.cpp.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/test_leetcode238.dir/Test/test_leetcode238.cpp.o -c /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp",
+  "file": "/Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp",
+  "output": "CMakeFiles/test_leetcode238.dir/Test/test_leetcode238.cpp.o"
 },
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o -c \"/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp\"",
-  "file": "/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp",
-  "output": "CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o"
-},
-{
-  "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUNIT_TEST -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/test_rotate_array.dir/tests/test_rotate_array.cpp.o -c /Users/Jaron/Documents/Projects/CppLeetcode/tests/test_rotate_array.cpp",
-  "file": "/Users/Jaron/Documents/Projects/CppLeetcode/tests/test_rotate_array.cpp",
-  "output": "CMakeFiles/test_rotate_array.dir/tests/test_rotate_array.cpp.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/test_leetcode238.dir/0._Array_and_String/leetcode238.cpp.o -c \"/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/leetcode238.cpp\"",
+  "file": "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/leetcode238.cpp",
+  "output": "CMakeFiles/test_leetcode238.dir/0._Array_and_String/leetcode238.cpp.o"
 },
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-build/googlemock",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/include -I/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/include -I/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "file": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
 },
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-build/googlemock",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "file": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
 },
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-build/googletest",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -I/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -I/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "file": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
 },
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-build/googletest",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=c++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "file": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
 }
