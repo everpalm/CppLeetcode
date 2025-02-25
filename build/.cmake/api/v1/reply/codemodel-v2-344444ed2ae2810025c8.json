@@ -171,9 +171,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "test_leetcode238::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_leetcode238-Debug-0218d029f4623aaaf0e6.json",
-					"name" : "test_leetcode238",
+					"id" : "test_suite::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_suite-Debug-b9a175c8275a48259425.json",
+					"name" : "test_suite",
 					"projectIndex" : 0
 				}
 			]

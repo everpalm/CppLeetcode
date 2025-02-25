@@ -1,5 +1,5 @@
-#ifndef LEETCODE238_H
-#define LEETCODE238_H
+#ifndef SOLUTION_H
+#define SOLUTION_H
 
 #include <vector>
 
@@ -11,4 +11,4 @@ public:
     void rotate(std::vector<int>& nums, int k);
 };
 
-#endif // LEETCODE238_H
+#endif // SOLUTION_H

@@ -1,4 +1,3 @@
-// #include "leetcode238.h"
 #include "solution.h"
 #include <iostream>
 // using namespace std;
@@ -6,11 +5,11 @@
 std::vector<int> Solution::productExceptSelf(const std::vector<int>& nums) {
     int n = nums.size();
     std::vector<int> answer(n, 1);
-    // cout << "Initial answer values: ";
-    // for (int val : answer) {
-    //     cout << val << " ";
-    // }
-    // cout << endl;
+    std::cout << "Initial answer values: ";
+    for (int val : answer) {
+        std::cout << val << " ";
+    }
+    std::cout << std::endl;
 
     // 計算左側乘積
     // answer[i] 儲存的是索引 i 左邊所有元素的乘積

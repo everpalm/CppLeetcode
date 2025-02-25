@@ -172,17 +172,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_leetcode238
+# Target rules for targets named test_suite
 
 # Build rule for target.
-test_leetcode238: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_leetcode238
-.PHONY : test_leetcode238
+test_suite: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_suite
+.PHONY : test_suite
 
 # fast build rule for target.
-test_leetcode238/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leetcode238.dir/build.make CMakeFiles/test_leetcode238.dir/build
-.PHONY : test_leetcode238/fast
+test_suite/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/build
+.PHONY : test_suite/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -241,7 +241,7 @@ gtest_main/fast:
 
 # target to build an object file
 0._Array_and_String/leetcode238.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leetcode238.dir/build.make CMakeFiles/test_leetcode238.dir/0._Array_and_String/leetcode238.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o
 .PHONY : 0._Array_and_String/leetcode238.cpp.o
 
 0._Array_and_String/leetcode238.i: 0._Array_and_String/leetcode238.cpp.i
@@ -249,7 +249,7 @@ gtest_main/fast:
 
 # target to preprocess a source file
 0._Array_and_String/leetcode238.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leetcode238.dir/build.make CMakeFiles/test_leetcode238.dir/0._Array_and_String/leetcode238.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.i
 .PHONY : 0._Array_and_String/leetcode238.cpp.i
 
 0._Array_and_String/leetcode238.s: 0._Array_and_String/leetcode238.cpp.s
@@ -257,7 +257,7 @@ gtest_main/fast:
 
 # target to generate assembly for a file
 0._Array_and_String/leetcode238.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leetcode238.dir/build.make CMakeFiles/test_leetcode238.dir/0._Array_and_String/leetcode238.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.s
 .PHONY : 0._Array_and_String/leetcode238.cpp.s
 
 Test/test_leetcode238.o: Test/test_leetcode238.cpp.o
@@ -265,7 +265,7 @@ Test/test_leetcode238.o: Test/test_leetcode238.cpp.o
 
 # target to build an object file
 Test/test_leetcode238.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leetcode238.dir/build.make CMakeFiles/test_leetcode238.dir/Test/test_leetcode238.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o
 .PHONY : Test/test_leetcode238.cpp.o
 
 Test/test_leetcode238.i: Test/test_leetcode238.cpp.i
@@ -273,7 +273,7 @@ Test/test_leetcode238.i: Test/test_leetcode238.cpp.i
 
 # target to preprocess a source file
 Test/test_leetcode238.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leetcode238.dir/build.make CMakeFiles/test_leetcode238.dir/Test/test_leetcode238.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.i
 .PHONY : Test/test_leetcode238.cpp.i
 
 Test/test_leetcode238.s: Test/test_leetcode238.cpp.s
@@ -281,7 +281,7 @@ Test/test_leetcode238.s: Test/test_leetcode238.cpp.s
 
 # target to generate assembly for a file
 Test/test_leetcode238.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_leetcode238.dir/build.make CMakeFiles/test_leetcode238.dir/Test/test_leetcode238.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.s
 .PHONY : Test/test_leetcode238.cpp.s
 
 # Help Target
@@ -301,7 +301,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... test_leetcode238"
+	@echo "... test_suite"
 	@echo "... 0._Array_and_String/leetcode238.o"
 	@echo "... 0._Array_and_String/leetcode238.i"
 	@echo "... 0._Array_and_String/leetcode238.s"

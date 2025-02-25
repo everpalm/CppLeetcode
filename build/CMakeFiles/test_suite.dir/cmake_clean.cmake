@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o"
+  "CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o.d"
   "CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o"
   "CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o.d"
-  "CMakeFiles/test_suite.dir/Test/test_rotate_array.cpp.o"
-  "CMakeFiles/test_suite.dir/Test/test_rotate_array.cpp.o.d"
   "test_suite"
   "test_suite.pdb"
 )

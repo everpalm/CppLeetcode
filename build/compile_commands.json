@@ -1,15 +1,15 @@
 [
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/test_leetcode238.dir/Test/test_leetcode238.cpp.o -c /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o -c /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp",
   "file": "/Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp",
-  "output": "CMakeFiles/test_leetcode238.dir/Test/test_leetcode238.cpp.o"
+  "output": "CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o"
 },
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/test_leetcode238.dir/0._Array_and_String/leetcode238.cpp.o -c \"/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/leetcode238.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/Jaron/Documents/Projects/CppLeetcode/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest/include -isystem /Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-src/googletest -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o -c \"/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/leetcode238.cpp\"",
   "file": "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/leetcode238.cpp",
-  "output": "CMakeFiles/test_leetcode238.dir/0._Array_and_String/leetcode238.cpp.o"
+  "output": "CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o"
 },
 {
   "directory": "/Users/Jaron/Documents/Projects/CppLeetcode/build/_deps/googletest-build/googlemock",

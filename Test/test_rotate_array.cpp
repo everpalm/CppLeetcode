@@ -1,5 +1,5 @@
 // tests/test_rotate_array.cpp
-
+#include "solution.h"
 #include <gtest/gtest.h>
 #include <vector>
 
