@@ -5,9 +5,9 @@
 std::vector<int> Solution::productExceptSelf(const std::vector<int>& nums) {
     int n = nums.size();
     std::vector<int> answer(n, 1);
-    std::cout << "Initial answer values: ";
-    for (int val : answer) {
-        std::cout << val << " ";
+    std::cout << "Initial answer values: " << std::endl;
+    for (const auto& val : answer) {
+        std::cout << "answer = " << val << std::endl;
     }
     std::cout << std::endl;
 
@@ -24,7 +24,12 @@ std::vector<int> Solution::productExceptSelf(const std::vector<int>& nums) {
         answer[i] *= right;
         right *= nums[i];
     }
-    
+
+    std::cout << "Resulting answer values: " << std::endl;
+    for (const auto& val : answer) {
+        std::cout << "answer = " << val << std::endl;
+    }
+    std::cout << std::endl;
     return answer;
 }
 

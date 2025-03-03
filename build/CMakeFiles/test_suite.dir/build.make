@@ -72,44 +72,44 @@ include CMakeFiles/test_suite.dir/flags.make
 CMakeFiles/test_suite.dir/codegen:
 .PHONY : CMakeFiles/test_suite.dir/codegen
 
-CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o: CMakeFiles/test_suite.dir/flags.make
-CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o: /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp
-CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o: CMakeFiles/test_suite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Jaron/Documents/Projects/CppLeetcode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o -MF CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o.d -o CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o -c /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp
+CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o: CMakeFiles/test_suite.dir/flags.make
+CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o: /Users/Jaron/Documents/Projects/CppLeetcode/14.\ Quick\ Sort/pivot.cpp
+CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o: CMakeFiles/test_suite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Jaron/Documents/Projects/CppLeetcode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o -MF CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o.d -o CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o -c "/Users/Jaron/Documents/Projects/CppLeetcode/14. Quick Sort/pivot.cpp"
 
-CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp > CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.i
+CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Jaron/Documents/Projects/CppLeetcode/14. Quick Sort/pivot.cpp" > CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.i
 
-CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_leetcode238.cpp -o CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.s
+CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Jaron/Documents/Projects/CppLeetcode/14. Quick Sort/pivot.cpp" -o CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.s
 
-CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o: CMakeFiles/test_suite.dir/flags.make
-CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o: /Users/Jaron/Documents/Projects/CppLeetcode/0.\ Array\ and\ String/leetcode238.cpp
-CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o: CMakeFiles/test_suite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Jaron/Documents/Projects/CppLeetcode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o -MF CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o.d -o CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o -c "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/leetcode238.cpp"
+CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o: CMakeFiles/test_suite.dir/flags.make
+CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o: /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_pivot.cpp
+CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o: CMakeFiles/test_suite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Jaron/Documents/Projects/CppLeetcode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o -MF CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o.d -o CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o -c /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_pivot.cpp
 
-CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/leetcode238.cpp" > CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.i
+CMakeFiles/test_suite.dir/Test/test_pivot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_suite.dir/Test/test_pivot.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_pivot.cpp > CMakeFiles/test_suite.dir/Test/test_pivot.cpp.i
 
-CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/leetcode238.cpp" -o CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.s
+CMakeFiles/test_suite.dir/Test/test_pivot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_suite.dir/Test/test_pivot.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Jaron/Documents/Projects/CppLeetcode/Test/test_pivot.cpp -o CMakeFiles/test_suite.dir/Test/test_pivot.cpp.s
 
 # Object files for target test_suite
 test_suite_OBJECTS = \
-"CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o" \
-"CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o"
+"CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o" \
+"CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o"
 
 # External object files for target test_suite
 test_suite_EXTERNAL_OBJECTS =
 
-test_suite: CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o
-test_suite: CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o
+test_suite: CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o
+test_suite: CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o
 test_suite: CMakeFiles/test_suite.dir/build.make
 test_suite: lib/libgtest.a
 test_suite: lib/libgtest_main.a

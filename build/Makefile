@@ -236,53 +236,53 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-0._Array_and_String/leetcode238.o: 0._Array_and_String/leetcode238.cpp.o
-.PHONY : 0._Array_and_String/leetcode238.o
+14._Quick_Sort/pivot.o: 14._Quick_Sort/pivot.cpp.o
+.PHONY : 14._Quick_Sort/pivot.o
 
 # target to build an object file
-0._Array_and_String/leetcode238.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.o
-.PHONY : 0._Array_and_String/leetcode238.cpp.o
+14._Quick_Sort/pivot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o
+.PHONY : 14._Quick_Sort/pivot.cpp.o
 
-0._Array_and_String/leetcode238.i: 0._Array_and_String/leetcode238.cpp.i
-.PHONY : 0._Array_and_String/leetcode238.i
+14._Quick_Sort/pivot.i: 14._Quick_Sort/pivot.cpp.i
+.PHONY : 14._Quick_Sort/pivot.i
 
 # target to preprocess a source file
-0._Array_and_String/leetcode238.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.i
-.PHONY : 0._Array_and_String/leetcode238.cpp.i
+14._Quick_Sort/pivot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.i
+.PHONY : 14._Quick_Sort/pivot.cpp.i
 
-0._Array_and_String/leetcode238.s: 0._Array_and_String/leetcode238.cpp.s
-.PHONY : 0._Array_and_String/leetcode238.s
+14._Quick_Sort/pivot.s: 14._Quick_Sort/pivot.cpp.s
+.PHONY : 14._Quick_Sort/pivot.s
 
 # target to generate assembly for a file
-0._Array_and_String/leetcode238.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/0._Array_and_String/leetcode238.cpp.s
-.PHONY : 0._Array_and_String/leetcode238.cpp.s
+14._Quick_Sort/pivot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.s
+.PHONY : 14._Quick_Sort/pivot.cpp.s
 
-Test/test_leetcode238.o: Test/test_leetcode238.cpp.o
-.PHONY : Test/test_leetcode238.o
+Test/test_pivot.o: Test/test_pivot.cpp.o
+.PHONY : Test/test_pivot.o
 
 # target to build an object file
-Test/test_leetcode238.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.o
-.PHONY : Test/test_leetcode238.cpp.o
+Test/test_pivot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o
+.PHONY : Test/test_pivot.cpp.o
 
-Test/test_leetcode238.i: Test/test_leetcode238.cpp.i
-.PHONY : Test/test_leetcode238.i
+Test/test_pivot.i: Test/test_pivot.cpp.i
+.PHONY : Test/test_pivot.i
 
 # target to preprocess a source file
-Test/test_leetcode238.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.i
-.PHONY : Test/test_leetcode238.cpp.i
+Test/test_pivot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_pivot.cpp.i
+.PHONY : Test/test_pivot.cpp.i
 
-Test/test_leetcode238.s: Test/test_leetcode238.cpp.s
-.PHONY : Test/test_leetcode238.s
+Test/test_pivot.s: Test/test_pivot.cpp.s
+.PHONY : Test/test_pivot.s
 
 # target to generate assembly for a file
-Test/test_leetcode238.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_leetcode238.cpp.s
-.PHONY : Test/test_leetcode238.cpp.s
+Test/test_pivot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_pivot.cpp.s
+.PHONY : Test/test_pivot.cpp.s
 
 # Help Target
 help:
@@ -302,12 +302,12 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... test_suite"
-	@echo "... 0._Array_and_String/leetcode238.o"
-	@echo "... 0._Array_and_String/leetcode238.i"
-	@echo "... 0._Array_and_String/leetcode238.s"
-	@echo "... Test/test_leetcode238.o"
-	@echo "... Test/test_leetcode238.i"
-	@echo "... Test/test_leetcode238.s"
+	@echo "... 14._Quick_Sort/pivot.o"
+	@echo "... 14._Quick_Sort/pivot.i"
+	@echo "... 14._Quick_Sort/pivot.s"
+	@echo "... Test/test_pivot.o"
+	@echo "... Test/test_pivot.i"
+	@echo "... Test/test_pivot.s"
 .PHONY : help
 
 
