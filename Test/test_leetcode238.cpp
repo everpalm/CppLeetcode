@@ -5,7 +5,7 @@
 
 using std::vector;
 
-TEST(ProductExceptSelfTest, LeetCode238)
+TEST(ArrayAndString, LeetCode238)
 {
     Solution sol;
     vector<int> nums = {1, 2, 3, 4};
