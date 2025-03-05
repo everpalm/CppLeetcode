@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o"
-  "CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o.d"
+  "CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o"
+  "CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o.d"
   "rotate_array"
   "rotate_array.pdb"
 )

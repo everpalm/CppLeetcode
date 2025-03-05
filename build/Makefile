@@ -172,43 +172,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named rotate_array_lib
+# Target rules for targets named test_suite
 
 # Build rule for target.
-rotate_array_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rotate_array_lib
-.PHONY : rotate_array_lib
+test_suite: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_suite
+.PHONY : test_suite
 
 # fast build rule for target.
-rotate_array_lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate_array_lib.dir/build.make CMakeFiles/rotate_array_lib.dir/build
-.PHONY : rotate_array_lib/fast
-
-#=============================================================================
-# Target rules for targets named rotate_array
-
-# Build rule for target.
-rotate_array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rotate_array
-.PHONY : rotate_array
-
-# fast build rule for target.
-rotate_array/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate_array.dir/build.make CMakeFiles/rotate_array.dir/build
-.PHONY : rotate_array/fast
-
-#=============================================================================
-# Target rules for targets named test_rotate_array
-
-# Build rule for target.
-test_rotate_array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_rotate_array
-.PHONY : test_rotate_array
-
-# fast build rule for target.
-test_rotate_array/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rotate_array.dir/build.make CMakeFiles/test_rotate_array.dir/build
-.PHONY : test_rotate_array/fast
+test_suite/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/build
+.PHONY : test_suite/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -262,56 +236,53 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-1._LinkedList/rotate_array.o: 1._LinkedList/rotate_array.cpp.o
-.PHONY : 1._LinkedList/rotate_array.o
+14._Quick_Sort/pivot.o: 14._Quick_Sort/pivot.cpp.o
+.PHONY : 14._Quick_Sort/pivot.o
 
 # target to build an object file
-1._LinkedList/rotate_array.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate_array_lib.dir/build.make CMakeFiles/rotate_array_lib.dir/1._LinkedList/rotate_array.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate_array.dir/build.make CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o
-.PHONY : 1._LinkedList/rotate_array.cpp.o
+14._Quick_Sort/pivot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o
+.PHONY : 14._Quick_Sort/pivot.cpp.o
 
-1._LinkedList/rotate_array.i: 1._LinkedList/rotate_array.cpp.i
-.PHONY : 1._LinkedList/rotate_array.i
+14._Quick_Sort/pivot.i: 14._Quick_Sort/pivot.cpp.i
+.PHONY : 14._Quick_Sort/pivot.i
 
 # target to preprocess a source file
-1._LinkedList/rotate_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate_array_lib.dir/build.make CMakeFiles/rotate_array_lib.dir/1._LinkedList/rotate_array.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate_array.dir/build.make CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.i
-.PHONY : 1._LinkedList/rotate_array.cpp.i
+14._Quick_Sort/pivot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.i
+.PHONY : 14._Quick_Sort/pivot.cpp.i
 
-1._LinkedList/rotate_array.s: 1._LinkedList/rotate_array.cpp.s
-.PHONY : 1._LinkedList/rotate_array.s
+14._Quick_Sort/pivot.s: 14._Quick_Sort/pivot.cpp.s
+.PHONY : 14._Quick_Sort/pivot.s
 
 # target to generate assembly for a file
-1._LinkedList/rotate_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate_array_lib.dir/build.make CMakeFiles/rotate_array_lib.dir/1._LinkedList/rotate_array.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotate_array.dir/build.make CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.s
-.PHONY : 1._LinkedList/rotate_array.cpp.s
+14._Quick_Sort/pivot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.s
+.PHONY : 14._Quick_Sort/pivot.cpp.s
 
-tests/test_rotate_array.o: tests/test_rotate_array.cpp.o
-.PHONY : tests/test_rotate_array.o
+Test/test_pivot.o: Test/test_pivot.cpp.o
+.PHONY : Test/test_pivot.o
 
 # target to build an object file
-tests/test_rotate_array.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rotate_array.dir/build.make CMakeFiles/test_rotate_array.dir/tests/test_rotate_array.cpp.o
-.PHONY : tests/test_rotate_array.cpp.o
+Test/test_pivot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o
+.PHONY : Test/test_pivot.cpp.o
 
-tests/test_rotate_array.i: tests/test_rotate_array.cpp.i
-.PHONY : tests/test_rotate_array.i
+Test/test_pivot.i: Test/test_pivot.cpp.i
+.PHONY : Test/test_pivot.i
 
 # target to preprocess a source file
-tests/test_rotate_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rotate_array.dir/build.make CMakeFiles/test_rotate_array.dir/tests/test_rotate_array.cpp.i
-.PHONY : tests/test_rotate_array.cpp.i
+Test/test_pivot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_pivot.cpp.i
+.PHONY : Test/test_pivot.cpp.i
 
-tests/test_rotate_array.s: tests/test_rotate_array.cpp.s
-.PHONY : tests/test_rotate_array.s
+Test/test_pivot.s: Test/test_pivot.cpp.s
+.PHONY : Test/test_pivot.s
 
 # target to generate assembly for a file
-tests/test_rotate_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rotate_array.dir/build.make CMakeFiles/test_rotate_array.dir/tests/test_rotate_array.cpp.s
-.PHONY : tests/test_rotate_array.cpp.s
+Test/test_pivot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_suite.dir/build.make CMakeFiles/test_suite.dir/Test/test_pivot.cpp.s
+.PHONY : Test/test_pivot.cpp.s
 
 # Help Target
 help:
@@ -330,15 +301,13 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... rotate_array"
-	@echo "... rotate_array_lib"
-	@echo "... test_rotate_array"
-	@echo "... 1._LinkedList/rotate_array.o"
-	@echo "... 1._LinkedList/rotate_array.i"
-	@echo "... 1._LinkedList/rotate_array.s"
-	@echo "... tests/test_rotate_array.o"
-	@echo "... tests/test_rotate_array.i"
-	@echo "... tests/test_rotate_array.s"
+	@echo "... test_suite"
+	@echo "... 14._Quick_Sort/pivot.o"
+	@echo "... 14._Quick_Sort/pivot.i"
+	@echo "... 14._Quick_Sort/pivot.s"
+	@echo "... Test/test_pivot.o"
+	@echo "... Test/test_pivot.i"
+	@echo "... Test/test_pivot.s"
 .PHONY : help
 
 
