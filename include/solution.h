@@ -11,6 +11,7 @@ public:
     std::vector<int> productExceptSelf(const std::vector<int>& nums);
     void rotate(std::vector<int>& nums, int k);
     std::vector<int> quickSort(const std::vector<int>& nums);
+    int maxProfit(std::vector<int>& prices);
 
 private:
     int partition(std::vector<int>& arr, int low, int high);

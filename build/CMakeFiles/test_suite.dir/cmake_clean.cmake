@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o"
-  "CMakeFiles/test_suite.dir/14._Quick_Sort/pivot.cpp.o.d"
-  "CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o"
-  "CMakeFiles/test_suite.dir/Test/test_pivot.cpp.o.d"
+  "CMakeFiles/test_suite.dir/23._2-D_Dynamic_Programming/leetcode309.cpp.o"
+  "CMakeFiles/test_suite.dir/23._2-D_Dynamic_Programming/leetcode309.cpp.o.d"
+  "CMakeFiles/test_suite.dir/Test/test_leetcode309.cpp.o"
+  "CMakeFiles/test_suite.dir/Test/test_leetcode309.cpp.o.d"
   "test_suite"
   "test_suite.pdb"
 )
