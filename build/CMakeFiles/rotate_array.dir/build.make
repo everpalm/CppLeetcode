@@ -72,28 +72,28 @@ include CMakeFiles/rotate_array.dir/flags.make
 CMakeFiles/rotate_array.dir/codegen:
 .PHONY : CMakeFiles/rotate_array.dir/codegen
 
-CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o: CMakeFiles/rotate_array.dir/flags.make
-CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o: /Users/Jaron/Documents/Projects/CppLeetcode/1.\ LinkedList/rotate_array.cpp
-CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o: CMakeFiles/rotate_array.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Jaron/Documents/Projects/CppLeetcode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o -MF CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o.d -o CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o -c "/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp"
+CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o: CMakeFiles/rotate_array.dir/flags.make
+CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o: /Users/Jaron/Documents/Projects/CppLeetcode/0.\ Array\ and\ String/rotate_array.cpp
+CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o: CMakeFiles/rotate_array.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Jaron/Documents/Projects/CppLeetcode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o -MF CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o.d -o CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o -c "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/rotate_array.cpp"
 
-CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp" > CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.i
+CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/rotate_array.cpp" > CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.i
 
-CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Jaron/Documents/Projects/CppLeetcode/1. LinkedList/rotate_array.cpp" -o CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.s
+CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Jaron/Documents/Projects/CppLeetcode/0. Array and String/rotate_array.cpp" -o CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.s
 
 # Object files for target rotate_array
 rotate_array_OBJECTS = \
-"CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o"
+"CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o"
 
 # External object files for target rotate_array
 rotate_array_EXTERNAL_OBJECTS =
 
-rotate_array: CMakeFiles/rotate_array.dir/1._LinkedList/rotate_array.cpp.o
+rotate_array: CMakeFiles/rotate_array.dir/0._Array_and_String/rotate_array.cpp.o
 rotate_array: CMakeFiles/rotate_array.dir/build.make
 rotate_array: CMakeFiles/rotate_array.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/Jaron/Documents/Projects/CppLeetcode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rotate_array"
