@@ -37,7 +37,7 @@ Constraints:
 
 using std::vector;
 
-TEST(DynamicProgramming, LeetCode309)
+TEST(LeetCode309, ClassicCase)
 {
     Solution sol;
     vector<int> prices = {1, 2, 3, 0, 2};
