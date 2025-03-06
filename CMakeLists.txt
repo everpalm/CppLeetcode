@@ -19,9 +19,12 @@ add_executable(
     # "Test/test_leetcode238.cpp"
     # "14. Quick Sort/pivot.cpp"
     # "Test/test_pivot.cpp"
-    "23. 2-D Dynamic Programming/leetcode309.cpp"
-    "Test/test_leetcode309.cpp"
+    # "23. 2-D Dynamic Programming/leetcode309.cpp"
+    # "Test/test_leetcode309.cpp"
+    "4. HashTable/leetcode1.cpp"
+    "Test/test_leetcode1.cpp"
 )
+# )
 
 target_link_libraries(test_suite gtest gtest_main)
 
