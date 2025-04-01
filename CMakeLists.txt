@@ -21,8 +21,10 @@ add_executable(
     # "Test/test_pivot.cpp"
     # "23. 2-D Dynamic Programming/leetcode309.cpp"
     # "Test/test_leetcode309.cpp"
-    "4. HashTable/leetcode1.cpp"
-    "Test/test_leetcode1.cpp"
+    # "4. HashTable/leetcode1.cpp"
+    # "Test/test_leetcode1.cpp"
+    "4. HashTable/leetcode347.cpp"
+    "Test/test_leetcode347.cpp"
 )
 # )
 
