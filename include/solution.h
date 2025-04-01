@@ -15,6 +15,7 @@ public:
     int maxProfit(std::vector<int>& prices);
     std::vector<int> twoSum(std::vector<int>& nums, int target);
     std::vector<int> topKFrequent(std::vector<int>& nums, int target);
+    std::vector<int> standardSort(std::vector<int>& nums, int target);
 
 private:
     int partition(std::vector<int>& arr, int low, int high);

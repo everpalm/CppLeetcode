@@ -37,9 +37,11 @@ std::vector<int> Solution::topKFrequent(std::vector<int>& nums, int target) {
     std::vector<std::vector<int>> bucket(nums.size() + 1);
     for (const auto& kv : freq) {
         bucket[kv.second].push_back(kv.first);
+        std::cout << "bucket[" << kv.second << "] = " << kv.first << std::endl;
     }
-    
+
     std::vector<int> result;
+    std::cout << "bucket.size() = " << bucket.size() << std::endl;
     for (int i = bucket.size() - 1; i >= 0 && result.size() < target; i--) {
         for (int num : bucket[i]) {
             result.push_back(num);
@@ -47,6 +49,29 @@ std::vector<int> Solution::topKFrequent(std::vector<int>& nums, int target) {
                 break;
             }
         }
+    }
+    
+    return result;
+}
+
+std::vector<int> Solution::standardSort(std::vector<int>& nums, int target) {
+    std::unordered_map<int, int> freq;
+    for (int num : nums) {
+        freq[num]++;
+    }
+    
+    // 將 (數字, 頻率) 存入 vector
+    std::vector<std::pair<int, int>> freq_vec(freq.begin(), freq.end());
+
+    std::sort(freq_vec.begin(), freq_vec.end(), [](
+        const std::pair<int, int>& a, const std::pair<int, int>& b
+    ) {
+        return a.second > b.second; // 依照頻率由大到小排序
+    });
+    
+    std::vector<int> result;
+    for (int i = 0; i < target; ++i) {
+        result.push_back(freq_vec[i].first);
     }
     
     return result;

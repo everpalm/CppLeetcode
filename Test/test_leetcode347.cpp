@@ -1,8 +1,3 @@
-#include "solution.h"
-#include <gtest/gtest.h>
-#include <vector> // 確保包含 vector
-
-using std::vector;
 /*
 Example 1:
 Input: nums = [1,1,1,2,2,3], k = 2
@@ -19,6 +14,12 @@ Constraints:
 k is in the range [1, the number of unique elements in the array].
 It is guaranteed that the answer is unique.
 */
+#include "solution.h"
+#include <gtest/gtest.h>
+#include <vector> // 確保包含 vector
+
+using std::vector;
+
 TEST(LeetCode347, Example1)
 {
     Solution sol;
@@ -26,6 +27,7 @@ TEST(LeetCode347, Example1)
     int k = 2;
     vector<int> expected = {1, 2};
     EXPECT_EQ(sol.topKFrequent(nums, k), expected);
+    EXPECT_EQ(sol.standardSort(nums, k), expected);
 }
 
 TEST(LeetCode347, Example2)
@@ -35,4 +37,25 @@ TEST(LeetCode347, Example2)
     int k = 1;
     vector<int> expected = {1};
     EXPECT_EQ(sol.topKFrequent(nums, k), expected);
+    EXPECT_EQ(sol.standardSort(nums, k), expected);
+}
+
+TEST(LeetCode347, Example3)
+{
+    Solution sol;
+    vector<int> nums = {};
+    int k = 1;
+    vector<int> expected = {};
+    EXPECT_EQ(sol.topKFrequent(nums, k), expected);
+    EXPECT_EQ(sol.standardSort(nums, k), expected);
+}
+
+TEST(LeetCode347, Example4)
+{
+    Solution sol;
+    vector<int> nums = {1, 1, 1, 2, 2, 2, 3, 3, 3};
+    int k = 2;
+    vector<int> expected = {3, 2};
+    EXPECT_EQ(sol.topKFrequent(nums, k), expected);
+    EXPECT_EQ(sol.standardSort(nums, k), expected);
 }
