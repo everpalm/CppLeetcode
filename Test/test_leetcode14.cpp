@@ -14,6 +14,10 @@ Output: "fl"
 Example 2:
 Input: strs = ["dog","racecar","car"]
 Output: ""
+
+Example 3:
+Input: strs = ["ab","a"]
+Output: "a"
 */
 
 TEST(LeetCode14, Example1)
