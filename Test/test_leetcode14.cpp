@@ -2,10 +2,6 @@
 #include <gtest/gtest.h>
 #include <vector> // 確保包含 vector
 #include <string>
-
-using std::vector;
-using std::string;
-
 /*
 Example 1:
 Input: strs = ["flower","flow","flight"]
@@ -19,6 +15,9 @@ Example 3:
 Input: strs = ["ab","a"]
 Output: "a"
 */
+using std::vector;
+using std::string;
+using leetcode14::Solution;
 
 TEST(LeetCode14, Example1)
 {

@@ -1,5 +1,6 @@
 /*
 238. Product of Array Except Self
+
 Medium
 
 Topics
@@ -50,34 +51,38 @@ answer[3] = answer[2] * num[2] = 2 * 3
 #include "solution.h"
 #include <iostream>
 // using namespace std;
+namespace leetcode238 {
+    // 使用 std::vector<int> 來儲存整數陣列
+    // 使用 std::vector<int> 來儲存答案陣列
+    // 使用 std::cout 來輸出結果
+    std::vector<int> Solution::productExceptSelf(const std::vector<int>& nums) {
+        int n = nums.size();
+        std::vector<int> answer(n, 1);
+        std::cout << "Initial answer values: " << std::endl;
+        for (const auto& val : answer) {
+            std::cout << "answer = " << val << std::endl;
+        }
+        std::cout << std::endl;
 
-std::vector<int> Solution::productExceptSelf(const std::vector<int>& nums) {
-    int n = nums.size();
-    std::vector<int> answer(n, 1);
-    std::cout << "Initial answer values: " << std::endl;
-    for (const auto& val : answer) {
-        std::cout << "answer = " << val << std::endl;
-    }
-    std::cout << std::endl;
+        // 計算左側乘積
+        // answer[i] 儲存的是索引 i 左邊所有元素的乘積
+        for (int i = 1; i < n; i++) {
+            answer[i] = answer[i - 1] * nums[i - 1];
+        }
 
-    // 計算左側乘積
-    // answer[i] 儲存的是索引 i 左邊所有元素的乘積
-    for (int i = 1; i < n; i++) {
-        answer[i] = answer[i - 1] * nums[i - 1];
-    }
+        // 用變數 right 來儲存右側乘積，初始值為 1
+        int right = 1;
+        // 從右往左遍歷，累積右側乘積並更新答案
+        for (int i = n - 1; i >= 0; i--) {
+            answer[i] *= right;
+            right *= nums[i];
+        }
 
-    // 用變數 right 來儲存右側乘積，初始值為 1
-    int right = 1;
-    // 從右往左遍歷，累積右側乘積並更新答案
-    for (int i = n - 1; i >= 0; i--) {
-        answer[i] *= right;
-        right *= nums[i];
+        std::cout << "Resulting answer values: " << std::endl;
+        for (const auto& val : answer) {
+            std::cout << "answer = " << val << std::endl;
+        }
+        std::cout << std::endl;
+        return answer;
     }
-
-    std::cout << "Resulting answer values: " << std::endl;
-    for (const auto& val : answer) {
-        std::cout << "answer = " << val << std::endl;
-    }
-    std::cout << std::endl;
-    return answer;
 }

@@ -2,9 +2,6 @@
 #include "solution.h"
 #include <gtest/gtest.h>
 #include <vector> // 確保包含 vector
-
-using std::vector;
-
 /*
 Example 1:
 Input: nums = [1,2,3,4]
@@ -15,6 +12,8 @@ Example 2:
 Input: nums = [-1,1,0,-3,3]
 Output: [0,0,9,0,0]
 */
+using std::vector;
+using leetcode238::Solution;
 
 TEST(LeetCode238, Example1)
 {

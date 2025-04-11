@@ -19,6 +19,7 @@ It is guaranteed that the answer is unique.
 #include <vector> // 確保包含 vector
 
 using std::vector;
+using leetcode347::Solution;
 
 TEST(LeetCode347, Example1)
 {

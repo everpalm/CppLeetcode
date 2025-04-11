@@ -1,7 +1,8 @@
 /*
 Leetcode 485: Max Consecutive Ones
 
-Leetcode: Easy
+Easy
+
 Given a binary array nums, return the maximum number of consecutive 1's in the array.
 
 Example 1:
@@ -23,16 +24,19 @@ nums[i] is either 0 or 1.
 #include <iostream>
 #include <vector>
 
-int Solution::findMaxConsecutiveOnes(std::vector<int>& nums) {
-    int maxCount = 0;
-    int count = 0;
-    for (int i = 0; i < nums.size(); i++) {
-        if (nums[i] == 1) {
-            count++;
-            maxCount = std::max(maxCount, count);
-        } else {
-            count = 0;
+namespace leetcode485  // Leetcode485: Max Consecutive Ones
+{
+    int Solution::findMaxConsecutiveOnes(std::vector<int>& nums) {
+        int maxCount = 0;
+        int count = 0;
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] == 1) {
+                count++;
+                maxCount = std::max(maxCount, count);
+            } else {
+                count = 0;
+            }
         }
+        return std::max(maxCount, count);
     }
-    return std::max(maxCount, count);
-}
+} // namespace leetcode485  // Leetcode485: Max Consecutive Ones
