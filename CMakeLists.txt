@@ -17,10 +17,10 @@ add_executable(
     test_suite
     # "0. Array and String/leetcode238.cpp"
     # "Test/test_leetcode238.cpp"
-    # "14. Quick Sort/pivot.cpp"
-    # "Test/test_pivot.cpp"
-    # "23. 2-D Dynamic Programming/leetcode309.cpp"
-    # "Test/test_leetcode309.cpp"
+    "14. Quick Sort/pivot.cpp"
+    "Test/test_pivot.cpp"
+    "23. 2-D Dynamic Programming/leetcode309.cpp"
+    "Test/test_leetcode309.cpp"
     # "4. HashTable/leetcode1.cpp"
     # "Test/test_leetcode1.cpp"
     # "4. HashTable/leetcode347.cpp"
@@ -29,8 +29,8 @@ add_executable(
     # "Test/test_leetcode14.cpp"
     # "0. Array and String/leetcode485.cpp"
     # "Test/test_leetcode485.cpp"
-    "0. Array and String/leetcode189.cpp"
-    "Test/test_leetcode189.cpp"
+    # "0. Array and String/leetcode189.cpp"
+    # "Test/test_leetcode189.cpp"
 )
 # )
 

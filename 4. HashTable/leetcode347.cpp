@@ -28,51 +28,57 @@ where n is the array's size.
 #include "solution.h"
 #include <iostream>
 
-std::vector<int> Solution::topKFrequent(std::vector<int>& nums, int target) {
-    std::unordered_map<int, int> freq;
-    for (int num : nums) {
-        freq[num]++;
-    }
-    
-    std::vector<std::vector<int>> bucket(nums.size() + 1);
-    for (const auto& kv : freq) {
-        bucket[kv.second].push_back(kv.first);
-        std::cout << "bucket[" << kv.second << "] = " << kv.first << std::endl;
-    }
+namespace leetcode347 {
+    // 使用 std::vector<int> 來儲存整數陣列
+    // 使用 std::unordered_map<int, int> 來儲存頻率
+    // 使用 std::vector<std::vector<int>> 來儲存桶排序的結果
+    // 使用 std::cout 來輸出結果
+    std::vector<int> Solution::topKFrequent(std::vector<int>& nums, int target) {
+        std::unordered_map<int, int> freq;
+        for (int num : nums) {
+            freq[num]++;
+        }
+        
+        std::vector<std::vector<int>> bucket(nums.size() + 1);
+        for (const auto& kv : freq) {
+            bucket[kv.second].push_back(kv.first);
+            std::cout << "bucket[" << kv.second << "] = " << kv.first << std::endl;
+        }
 
-    std::vector<int> result;
-    std::cout << "bucket.size() = " << bucket.size() << std::endl;
-    for (int i = bucket.size() - 1; i >= 0 && result.size() < target; i--) {
-        for (int num : bucket[i]) {
-            result.push_back(num);
-            if (result.size() == target) {
-                break;
+        std::vector<int> result;
+        std::cout << "bucket.size() = " << bucket.size() << std::endl;
+        for (int i = bucket.size() - 1; i >= 0 && result.size() < target; i--) {
+            for (int num : bucket[i]) {
+                result.push_back(num);
+                if (result.size() == target) {
+                    break;
+                }
             }
         }
+        
+        return result;
     }
-    
-    return result;
-}
 
-std::vector<int> Solution::standardSort(std::vector<int>& nums, int target) {
-    std::unordered_map<int, int> freq;
-    for (int num : nums) {
-        freq[num]++;
-    }
-    
-    // 將 (數字, 頻率) 存入 vector
-    std::vector<std::pair<int, int>> freq_vec(freq.begin(), freq.end());
+    std::vector<int> Solution::standardSort(std::vector<int>& nums, int target) {
+        std::unordered_map<int, int> freq;
+        for (int num : nums) {
+            freq[num]++;
+        }
+        
+        // 將 (數字, 頻率) 存入 vector
+        std::vector<std::pair<int, int>> freq_vec(freq.begin(), freq.end());
 
-    std::sort(freq_vec.begin(), freq_vec.end(), [](
-        const std::pair<int, int>& a, const std::pair<int, int>& b
-    ) {
-        return a.second > b.second; // 依照頻率由大到小排序
-    });
-    
-    std::vector<int> result;
-    for (int i = 0; i < target; ++i) {
-        result.push_back(freq_vec[i].first);
+        std::sort(freq_vec.begin(), freq_vec.end(), [](
+            const std::pair<int, int>& a, const std::pair<int, int>& b
+        ) {
+            return a.second > b.second; // 依照頻率由大到小排序
+        });
+        
+        std::vector<int> result;
+        for (int i = 0; i < target; ++i) {
+            result.push_back(freq_vec[i].first);
+        }
+        
+        return result;
     }
-    
-    return result;
 }

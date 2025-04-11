@@ -3,6 +3,7 @@
 #include <vector> // 確保包含 vector
 
 using std::vector;
+using leetcode1::Solution;
 
 TEST(LeetCode1, ClassicCase)
 {

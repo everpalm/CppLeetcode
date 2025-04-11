@@ -14,6 +14,7 @@ Output: 2
 #include <vector>
 
 using std::vector;
+using leetcode485::Solution;
 
 TEST(LeetCode485, Example1)
 {

@@ -1,5 +1,6 @@
 /*
 14. Longest Common Prefix
+
 Easy
 
 Topics
@@ -28,7 +29,10 @@ strs[i] consists of only lowercase English letters if it is non-empty.
 #include <vector>
 #include <string>
 
-std::string Solution::longestCommonPrefix(std::vector<std::string>& strs) {
+namespace leetcode14 {
+    // 使用 std::string 來儲存字串
+    // 使用 std::vector<std::string> 來儲存字串陣列
+    std::string Solution::longestCommonPrefix(std::vector<std::string>& strs) {
     if (strs.empty()) {
         return "";
     }
@@ -42,4 +46,5 @@ std::string Solution::longestCommonPrefix(std::vector<std::string>& strs) {
         }
     }
     return prefix;
+}
 }

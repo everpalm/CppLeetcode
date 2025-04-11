@@ -16,6 +16,7 @@ Output: 0
 #include <vector> // 確保包含 vector
 
 using std::vector;
+using leetcode309::Solution;
 
 TEST(LeetCode309, Example1)
 {

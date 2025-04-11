@@ -46,17 +46,20 @@ ways to solve this problem.
 #include <algorithm>
 using namespace std;
 
-void Solution::rotate(vector<int>& nums, int k) {
-    int n = nums.size();
-    if(n == 0 || k == 0) return;
-    k %= n;  // 當 k >= n 時取餘數
-    // 1. 反轉整個陣列
-    reverse(nums.begin(), nums.end());
-    // 2. 反轉前 k 個元素
-    reverse(nums.begin(), nums.begin() + k);
-    // 3. 反轉剩餘的元素
-    reverse(nums.begin() + k, nums.end());
+namespace leetcode189 {
+    void Solution::rotate(vector<int>& nums, int k) {
+        int n = nums.size();
+        if(n == 0 || k == 0) return;
+        k %= n;  // 當 k >= n 時取餘數
+        // 1. 反轉整個陣列
+        reverse(nums.begin(), nums.end());
+        // 2. 反轉前 k 個元素
+        reverse(nums.begin(), nums.begin() + k);
+        // 3. 反轉剩餘的元素
+        reverse(nums.begin() + k, nums.end());
+    }
 }
+
 
 // #ifndef UNIT_TEST
 // int main() {

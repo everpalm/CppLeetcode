@@ -4,11 +4,7 @@
 #include <algorithm> // 確保包含 algorithm
 
 using std::vector;
-
-#include "solution.h"
-#include <gtest/gtest.h>
-#include <vector>
-
+using quicksort::Solution;
 // 測試：對一個無序的 vector 進行排序
 TEST(QuickSortTest, SortsUnsortedVector) {
     Solution sol;

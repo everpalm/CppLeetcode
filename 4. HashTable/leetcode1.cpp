@@ -44,20 +44,22 @@ complexity?
 #include "solution.h"
 #include <iostream>
 
-std::vector<int> Solution::twoSum(std::vector<int>& nums, int target) {
-    std::unordered_map<int, int> buffer;  // Hash map to store value:index pairs
-    
-    for (int key = 0; key < nums.size(); key++) {
-        int value = nums[key];
-        int complement = target - value;
+namespace leetcode1 {
+    std::vector<int> Solution::twoSum(std::vector<int>& nums, int target) {
+        std::unordered_map<int, int> buffer;  // Hash map to store value:index pairs
         
-        // Check if complement exists in the hash map
-        if (buffer.find(complement) != buffer.end()) {
-            return {buffer[complement], key};  // Return vector with both indices
-        }
-        
-        buffer[value] = key;  // Store current value and its index
+        for (int key = 0; key < nums.size(); key++) {
+            int value = nums[key];
+            int complement = target - value;
+            
+            // Check if complement exists in the hash map
+            if (buffer.find(complement) != buffer.end()) {
+                return {buffer[complement], key};  // Return vector with both indices
+            }
+            
+            buffer[value] = key;  // Store current value and its index
+        }  
+        return {};  // Return empty vector if no solution is found
     }
-    
-    return {};  // Return empty vector if no solution is found
-}
+} // namespace leetcode1
+
