@@ -22,16 +22,15 @@ nums[i] is either 0 or 1.
 #include "solution.h"
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
-int findMaxConsecutiveOnes(std::vector<int>& nums) {
+int Solution::findMaxConsecutiveOnes(std::vector<int>& nums) {
     int maxCount = 0;
     int count = 0;
     for (int i = 0; i < nums.size(); i++) {
         if (nums[i] == 1) {
             count++;
-        } else {
             maxCount = std::max(maxCount, count);
+        } else {
             count = 0;
         }
     }

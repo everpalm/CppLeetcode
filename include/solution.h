@@ -17,6 +17,7 @@ public:
     std::vector<int> topKFrequent(std::vector<int>& nums, int target);
     std::vector<int> standardSort(std::vector<int>& nums, int target);
     std::string longestCommonPrefix(std::vector<std::string>& strs);
+    int findMaxConsecutiveOnes(std::vector<int>& nums);
 
 private:
     int partition(std::vector<int>& arr, int low, int high);
