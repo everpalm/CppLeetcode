@@ -25,8 +25,12 @@ add_executable(
     # "Test/test_leetcode1.cpp"
     # "4. HashTable/leetcode347.cpp"
     # "Test/test_leetcode347.cpp"
-    "0. Array and String/leetcode14.cpp"
-    "Test/test_leetcode14.cpp"
+    # "0. Array and String/leetcode14.cpp"
+    # "Test/test_leetcode14.cpp"
+    # "0. Array and String/leetcode485.cpp"
+    # "Test/test_leetcode485.cpp"
+    "0. Array and String/leetcode189.cpp"
+    "Test/test_leetcode189.cpp"
 )
 # )
 
