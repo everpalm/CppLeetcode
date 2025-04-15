@@ -81,4 +81,11 @@ namespace leetcode485 {
             int findMaxConsecutiveOnes(std::vector<int>& nums);
     };
 }
+
+namespace leetcode518 {
+    class Solution {
+        public:
+            int change(int amount, std::vector<int>& coins);
+    };
+}
 #endif // SOLUTION_H

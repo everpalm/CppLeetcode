@@ -105,6 +105,7 @@ namespace leetcode242 {
     bool Solution::isAnagramHash(std::string s, std::string t) {
         std::unordered_map<char, int> map_s;
         std::unordered_map<char, int> map_t;
+
         for (const auto& ch : s) {
             map_s[ch]++;
         }
