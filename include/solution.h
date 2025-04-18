@@ -82,6 +82,13 @@ namespace leetcode485 {
     };
 }
 
+namespace leetcode494 {
+    class Solution {
+        public:
+            int findTargetSumWays(std::vector<int>& nums, int target);
+    };
+}
+
 namespace leetcode518 {
     class Solution {
         public:

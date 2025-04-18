@@ -32,8 +32,10 @@ add_executable(
     # "Test/test_leetcode309.cpp"
     # "0. Array and String/leetcode485.cpp"
     # "Test/test_leetcode485.cpp"
-    "23. 2-D Dynamic Programming/leetcode518.cpp"
-    "Test/test_leetcode518.cpp"
+    # "23. 2-D Dynamic Programming/leetcode518.cpp"
+    # "Test/test_leetcode518.cpp"
+    "23. 2-D Dynamic Programming/leetcode494.cpp"
+    "Test/test_leetcode494.cpp"
 )
 # )
 
