@@ -34,6 +34,13 @@ namespace leetcode14 {
     };
 }
 
+namespace leetcode26 {
+    class Solution {
+        public:
+            int removeDuplicates(std::vector<int>& nums);
+            int Optimized(std::vector<int>& nums);
+    };
+}
 
 namespace leetcode189 {
     class Solution {
